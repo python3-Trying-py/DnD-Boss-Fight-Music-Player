@@ -1,3 +1,5 @@
+import os
+
 class PlayerModel:
     def __init__(self):
         self.current_song = None
@@ -11,3 +13,8 @@ class PlayerModel:
 
     def stop(self):
         self.is_playing = False
+
+    def grab_fights(self) -> list:
+        path = "./Musics/"
+        folders = [f for f in os.listdir(path) if os.path.isdir(os.path.join(path, f))]
+        return folders

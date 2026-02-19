@@ -1,0 +1,4 @@
+###Music Section Name###
+###Number of intro pieces,Number of phase pieces,Number of ending pieces###
+###File names of pieces separated by ||| (e.g. file1|||file2|||file3|||...)###
+###Display names of music separated by ||| (e.g. intro|||phase 1|||phase 2|||...|||ending)###
