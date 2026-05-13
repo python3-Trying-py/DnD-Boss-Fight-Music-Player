@@ -1,0 +1,6 @@
+Musics
+.vscode
+todo.md
+music_player.log
+app/__pycache__
+app/*/__pycache__
